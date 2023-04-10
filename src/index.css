@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
@@ -32,6 +32,23 @@ a {
 .clr_yellow {
     color: #FBB034;
     ;
+}
+
+.bg1 {
+    background-image: url(../src/assets/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.program {
+    border: 1px solid #FBB034;
+    padding: 14px 40px;
+}
+
+.hello {
+    background-image: url(../src/assets/helloback.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .home {
@@ -139,10 +156,12 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.seassor{
+
+.seassor {
     bottom: -90px;
     right: -90px;
 }
+
 .shadow {
     background-image: url(../src/assets/shadow.png);
     background-repeat: no-repeat;
@@ -226,6 +245,24 @@ a {
     font-family: 'Poppins', sans-serif;
 }
 
+.get {
+    background: #FBB034;
+    border-radius: 8px;
+    padding: 14px 41px;
+}
+.outline_none{
+    outline: none !important;
+    border: none;
+}
+.yellow_box{
+    width: 50px;
+    height: 50px;
+    background: #FBB034;
+        border-radius: 8px 8px 0px 0px;
+}
+.hoverli:hover{
+    color: #FBB034 !important;
+}
 .ff_dm_sans {
     font-family: 'DM Sans', sans-serif;
 }
@@ -272,7 +309,7 @@ a {
 }
 
 .yellow {
-    color: var(--color-yellow);
+    color: var(--color-yellow) !important;
 }
 
 .white {
@@ -410,6 +447,7 @@ a {
         --fs-12: 12px;
     }
 }
+
 @media (max-width:992px) {
     :root {
         /* font_size */
@@ -429,11 +467,30 @@ a {
     }
 }
 
+@media (max-width:768px) {
+    :root {
+        /* font_size */
+        --fs-48: 40px;
+        --fs-36: 25px;
+        --fs-32: 27px;
+        --fs-24: 24px;
+        --fs-22: 22px;
+        --fs-21: 21px;
+        --fs-20: 20px;
+        --fs-18: 14px;
+        --fs-17: 17px;
+        --fs-16: 16px;
+        --fs-15: 15px;
+        --fs-13: 13px;
+        --fs-12: 12px;
+    }
+}
+
 @media (max-width:576px) {
     :root {
         /* font_size */
         --fs-48: 30px;
-        --fs-36: 36px;
+        --fs-36: 20px;
         --fs-32: 27px;
         --fs-24: 24px;
         --fs-22: 22px;

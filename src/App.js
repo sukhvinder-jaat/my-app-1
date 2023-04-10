@@ -8,6 +8,8 @@ import { Saction3 } from './components/Saction3';
 import { Barber } from './components/Barber';
 import { Box } from './components/Box';
 import { Complete } from './components/Complete';
+import Join from './components/Join';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
       <Barber />
       <Box />
       <Complete />
+      <Join />
+      <Footer />
     </div >
   );
 }

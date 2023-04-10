@@ -3,7 +3,7 @@ import navLogo from '../assets/navLogo.png'
 import sectionimage from '../assets/section1image.png'
 export const Mynav = () => {
     return (
-        <div className='bg-black position-relative'>
+        <div className='bg1 position-relative'>
             <nav>
                 <div className='container vh-100 mlra'>
                     <div className='d-flex justify-content-between py-3'>
